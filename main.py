@@ -21,6 +21,7 @@ hirst.setposition(-300, -300)
 turtle.colormode(255)
 height = -300
 hirst.speed(1000)
+hirst.hideturtle()
 while height < 100:
     hirst.setposition(-300, height)
     for _ in range(0, 30):
